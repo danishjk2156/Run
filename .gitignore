@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Build outputs & dist
+dist/
+build/
+client/dist/
+server/dist/
+*.tsbuildinfo
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+powershell.cmd
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

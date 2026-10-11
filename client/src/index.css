@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  color-scheme: dark;
+}
+
+.font-teko {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+
+/* Tier Glow Styles */
+.glow-awakened {
+  box-shadow: 0 0 35px rgba(0, 191, 255, 0.45);
+  border-color: #00bfff;
+}
+
+.glow-kaioken {
+  box-shadow: 0 0 45px rgba(255, 69, 0, 0.55);
+  border-color: #ff4500;
+}
+
+.glow-syana {
+  box-shadow: 0 0 55px rgba(255, 215, 0, 0.65), 0 0 20px rgba(255, 255, 255, 0.4);
+  border-color: #ffd700;
+}
+
+.glow-syana2 {
+  box-shadow: 0 0 65px rgba(123, 104, 238, 0.75), 0 0 30px rgba(0, 191, 255, 0.5);
+  border-color: #7b68ee;
+}
+
+.glow-god {
+  box-shadow: 0 0 80px rgba(255, 20, 147, 0.85), 0 0 40px rgba(255, 255, 255, 0.8);
+  border-color: #ff1493;
+}
+
+/* Glassmorphism panel */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
